@@ -4,7 +4,7 @@ import { Text } from 'react-native';
 export default class TextLabel extends Component {
   render() {
     return (
-        <Text>{this.props.textString}</Text>
+      <Text style={this.props.textStyle}>{this.props.textString}</Text>
     );
   }
 }
